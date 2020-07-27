@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    background-color: #fff;
+    color: rgb(7, 7, 7);
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    background-image: linear-gradient(rgba(126, 121, 121, 0.322), rgba(0, 0, 0, 0)), url(assets/imgback.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    text-rendering: optimizeLegibility;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    overflow: hidden;
+}
+.container{
+    max-height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+    .greetings{
+        display: flex;
+        flex:0 0 50px;
+        font-size: 28px;
+        font-weight: 300;
+        font-style: italic;
+
+    }
+    .box1{
+        display: flex;
+        font-weight: 500;
+        font-size: 20px;
+        flex:0 0 40px;
+        color: black;
+        background: rgba(126, 215, 222, 1) 0% 0% no-repeat padding-box;
+        border-radius: 20em;
+        opacity: 0.66;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    .box3{
+        display: flex;
+        flex:0 0 40px;
+        font-weight: 600;
+        font-size: 22px;
+        font-style: oblique;
+        background: rgba(126, 215, 222, 1) 0% 0% no-repeat padding-box;
+        border-radius: 20em;
+        opacity: 0.66;
+        color: black;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .box2{
+        display: flex;
+        flex: 1 0 0;
+        font-size: 18px;
+        font-family:Helvetica;
+        align-items: center;
+        background: rgba(126, 216, 222, 0.664) 0% 0% no-repeat padding-box;
+        justify-content: center;
+        border-radius: 5vh;
+        padding:1rem .5em ;
+        flex-direction: column;
+        align-items: stretch;
+         
+
+    }
+        .row{
+            display: flex;
+            flex-direction: row;
+            
+        }
+        .temp_data{
+            display: flex;
+            background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
+            border-radius: 50%;
+            padding:25px 25px 25px 25px  ;
+            opacity: 1;
+            margin: 0 20px 0 20px;
+        }
+        .humid_data{
+            display: flex;
+            background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
+            border-radius: 50%;
+            padding:25px 25px 25px 25px ;
+            opacity: 1;
+            margin: 0 20px 0 20px;
+            
+        }
+        .water_stats{
+            display: flex;
+            flex:0 0 20px;
+            padding:10px 10px ;
+            background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
+            border-radius: 20em;
+            opacity:1;
+            align-items: center;
+            justify-content: center;
+            margin: 40px 20px 0 20px;
+
+        }
+        .led_stats{
+            display: flex;
+            flex:0 0 20px;
+            padding:10px 10px ;
+            background: rgba(255, 255, 255, 1) 0% 0% no-repeat padding-box;
+            border-radius: 20em;
+            opacity:1;
+            align-items: center;
+            justify-content: center;
+            margin: 40px 20px 0 20px;
+        }
+
+
+    
+
+
+    
